@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C287AE61B7847ED0051AA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287AE51B7847ED0051AA92 /* AppDelegate.swift */; };
+		6C287AE81B7847ED0051AA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287AE71B7847ED0051AA92 /* ViewController.swift */; };
+		6C287AEB1B7847ED0051AA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C287AE91B7847ED0051AA92 /* Main.storyboard */; };
+		6C287AED1B7847ED0051AA92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C287AEC1B7847ED0051AA92 /* Images.xcassets */; };
+		6C287AF01B7847ED0051AA92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C287AEE1B7847ED0051AA92 /* LaunchScreen.xib */; };
+		6C287AFC1B7847ED0051AA92 /* FXCanlendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287AFB1B7847ED0051AA92 /* FXCanlendarTests.swift */; };
+		6C287B0B1B7848520051AA92 /* FXCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B051B7848520051AA92 /* FXCalendarViewController.swift */; };
+		6C287B0C1B7848520051AA92 /* FXWeeklyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B061B7848520051AA92 /* FXWeeklyCalendarView.swift */; };
+		6C287B0D1B7848520051AA92 /* UIColor+FX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B071B7848520051AA92 /* UIColor+FX.swift */; };
+		6C287B0E1B7848520051AA92 /* FXDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B081B7848520051AA92 /* FXDayView.swift */; };
+		6C287B0F1B7848520051AA92 /* NSDate+FX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B091B7848520051AA92 /* NSDate+FX.swift */; };
+		6C287B101B7848520051AA92 /* FXDayTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C287B0A1B7848520051AA92 /* FXDayTitleLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C287AF61B7847ED0051AA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C287AD81B7847ED0051AA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C287ADF1B7847ED0051AA92;
+			remoteInfo = FXCanlendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C287AE01B7847ED0051AA92 /* FXCanlendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXCanlendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C287AE41B7847ED0051AA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C287AE51B7847ED0051AA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C287AE71B7847ED0051AA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C287AEA1B7847ED0051AA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C287AEC1B7847ED0051AA92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C287AEF1B7847ED0051AA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C287AF51B7847ED0051AA92 /* FXCanlendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXCanlendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C287AFA1B7847ED0051AA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C287AFB1B7847ED0051AA92 /* FXCanlendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXCanlendarTests.swift; sourceTree = "<group>"; };
+		6C287B051B7848520051AA92 /* FXCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXCalendarViewController.swift; sourceTree = "<group>"; };
+		6C287B061B7848520051AA92 /* FXWeeklyCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXWeeklyCalendarView.swift; sourceTree = "<group>"; };
+		6C287B071B7848520051AA92 /* UIColor+FX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+FX.swift"; sourceTree = "<group>"; };
+		6C287B081B7848520051AA92 /* FXDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXDayView.swift; sourceTree = "<group>"; };
+		6C287B091B7848520051AA92 /* NSDate+FX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+FX.swift"; sourceTree = "<group>"; };
+		6C287B0A1B7848520051AA92 /* FXDayTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXDayTitleLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C287ADD1B7847ED0051AA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C287AF21B7847ED0051AA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C287AD71B7847ED0051AA92 = {
+			isa = PBXGroup;
+			children = (
+				6C287AE21B7847ED0051AA92 /* FXCanlendar */,
+				6C287AF81B7847ED0051AA92 /* FXCanlendarTests */,
+				6C287AE11B7847ED0051AA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C287AE11B7847ED0051AA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C287AE01B7847ED0051AA92 /* FXCanlendar.app */,
+				6C287AF51B7847ED0051AA92 /* FXCanlendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C287AE21B7847ED0051AA92 /* FXCanlendar */ = {
+			isa = PBXGroup;
+			children = (
+				6C287B051B7848520051AA92 /* FXCalendarViewController.swift */,
+				6C287B061B7848520051AA92 /* FXWeeklyCalendarView.swift */,
+				6C287B071B7848520051AA92 /* UIColor+FX.swift */,
+				6C287B081B7848520051AA92 /* FXDayView.swift */,
+				6C287B091B7848520051AA92 /* NSDate+FX.swift */,
+				6C287B0A1B7848520051AA92 /* FXDayTitleLabel.swift */,
+				6C287AE51B7847ED0051AA92 /* AppDelegate.swift */,
+				6C287AE71B7847ED0051AA92 /* ViewController.swift */,
+				6C287AE91B7847ED0051AA92 /* Main.storyboard */,
+				6C287AEC1B7847ED0051AA92 /* Images.xcassets */,
+				6C287AEE1B7847ED0051AA92 /* LaunchScreen.xib */,
+				6C287AE31B7847ED0051AA92 /* Supporting Files */,
+			);
+			path = FXCanlendar;
+			sourceTree = "<group>";
+		};
+		6C287AE31B7847ED0051AA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C287AE41B7847ED0051AA92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C287AF81B7847ED0051AA92 /* FXCanlendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C287AFB1B7847ED0051AA92 /* FXCanlendarTests.swift */,
+				6C287AF91B7847ED0051AA92 /* Supporting Files */,
+			);
+			path = FXCanlendarTests;
+			sourceTree = "<group>";
+		};
+		6C287AF91B7847ED0051AA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C287AFA1B7847ED0051AA92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C287ADF1B7847ED0051AA92 /* FXCanlendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C287AFF1B7847ED0051AA92 /* Build configuration list for PBXNativeTarget "FXCanlendar" */;
+			buildPhases = (
+				6C287ADC1B7847ED0051AA92 /* Sources */,
+				6C287ADD1B7847ED0051AA92 /* Frameworks */,
+				6C287ADE1B7847ED0051AA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXCanlendar;
+			productName = FXCanlendar;
+			productReference = 6C287AE01B7847ED0051AA92 /* FXCanlendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C287AF41B7847ED0051AA92 /* FXCanlendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C287B021B7847ED0051AA92 /* Build configuration list for PBXNativeTarget "FXCanlendarTests" */;
+			buildPhases = (
+				6C287AF11B7847ED0051AA92 /* Sources */,
+				6C287AF21B7847ED0051AA92 /* Frameworks */,
+				6C287AF31B7847ED0051AA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C287AF71B7847ED0051AA92 /* PBXTargetDependency */,
+			);
+			name = FXCanlendarTests;
+			productName = FXCanlendarTests;
+			productReference = 6C287AF51B7847ED0051AA92 /* FXCanlendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C287AD81B7847ED0051AA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "缪海露";
+				TargetAttributes = {
+					6C287ADF1B7847ED0051AA92 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6C287AF41B7847ED0051AA92 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6C287ADF1B7847ED0051AA92;
+					};
+				};
+			};
+			buildConfigurationList = 6C287ADB1B7847ED0051AA92 /* Build configuration list for PBXProject "FXCanlendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C287AD71B7847ED0051AA92;
+			productRefGroup = 6C287AE11B7847ED0051AA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C287ADF1B7847ED0051AA92 /* FXCanlendar */,
+				6C287AF41B7847ED0051AA92 /* FXCanlendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C287ADE1B7847ED0051AA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C287AEB1B7847ED0051AA92 /* Main.storyboard in Resources */,
+				6C287AF01B7847ED0051AA92 /* LaunchScreen.xib in Resources */,
+				6C287AED1B7847ED0051AA92 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C287AF31B7847ED0051AA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C287ADC1B7847ED0051AA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C287B0B1B7848520051AA92 /* FXCalendarViewController.swift in Sources */,
+				6C287B0F1B7848520051AA92 /* NSDate+FX.swift in Sources */,
+				6C287B0C1B7848520051AA92 /* FXWeeklyCalendarView.swift in Sources */,
+				6C287AE81B7847ED0051AA92 /* ViewController.swift in Sources */,
+				6C287B0E1B7848520051AA92 /* FXDayView.swift in Sources */,
+				6C287B0D1B7848520051AA92 /* UIColor+FX.swift in Sources */,
+				6C287B101B7848520051AA92 /* FXDayTitleLabel.swift in Sources */,
+				6C287AE61B7847ED0051AA92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C287AF11B7847ED0051AA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C287AFC1B7847ED0051AA92 /* FXCanlendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C287AF71B7847ED0051AA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C287ADF1B7847ED0051AA92 /* FXCanlendar */;
+			targetProxy = 6C287AF61B7847ED0051AA92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C287AE91B7847ED0051AA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C287AEA1B7847ED0051AA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C287AEE1B7847ED0051AA92 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C287AEF1B7847ED0051AA92 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C287AFD1B7847ED0051AA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C287AFE1B7847ED0051AA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C287B001B7847ED0051AA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FXCanlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C287B011B7847ED0051AA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FXCanlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C287B031B7847ED0051AA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FXCanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXCanlendar.app/FXCanlendar";
+			};
+			name = Debug;
+		};
+		6C287B041B7847ED0051AA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FXCanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXCanlendar.app/FXCanlendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C287ADB1B7847ED0051AA92 /* Build configuration list for PBXProject "FXCanlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C287AFD1B7847ED0051AA92 /* Debug */,
+				6C287AFE1B7847ED0051AA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C287AFF1B7847ED0051AA92 /* Build configuration list for PBXNativeTarget "FXCanlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C287B001B7847ED0051AA92 /* Debug */,
+				6C287B011B7847ED0051AA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C287B021B7847ED0051AA92 /* Build configuration list for PBXNativeTarget "FXCanlendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C287B031B7847ED0051AA92 /* Debug */,
+				6C287B041B7847ED0051AA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C287AD81B7847ED0051AA92 /* Project object */;
+}
